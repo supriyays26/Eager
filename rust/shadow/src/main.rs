@@ -1,7 +1,7 @@
 fn main() {
-    let mut x:i32=1;
+    let x:i32=1;
     println!("the value of x:{}",x);
-    x=2;
+    let x=2;
     println!("the value of x:{}",x);
 
 
