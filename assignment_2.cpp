@@ -14,7 +14,7 @@ public:
     string productCategory;
     int stockQuantity;
 
-    InventoryItem() : productId(0), productName(""), productCategory(""), stockQuantity(0) {}
+    InventoryItem() : productId(0), productName(""), productCategory(""), stockQuantity(0) {}  //4 arguments added
     InventoryItem(int id, const std::string& name, const std::string& category, int quantity)
         : productId(id), productName(name), productCategory(category), stockQuantity(quantity) {}
  
